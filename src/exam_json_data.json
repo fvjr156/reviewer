@@ -1,0 +1,637 @@
+{
+  "examTitle": "Cultural Studies Theory & Philippine Peace Studies",
+  "examDescription": "50-Item Multiple Choice Reviewer",
+  "totalQuestions": 50,
+  "sections": [
+    {
+      "sectionId": 1,
+      "sectionName": "Terms & Definitions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary focus of Cultural Studies Theory?",
+          "options": [
+            "Analyzing box office success of films",
+            "Understanding how media shapes and reflects society's values, power, and identities",
+            "Studying camera techniques in filmmaking",
+            "Evaluating acting performances"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 2,
+          "question": "The concept that explains how media producers shape messages while audiences interpret them differently is called:",
+          "options": [
+            "Media Imperialism",
+            "Interpellation",
+            "Encoding/Decoding",
+            "Counter-Hegemony"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 3,
+          "question": "What is \"interpellation\" according to Louis Althusser?",
+          "options": [
+            "The process of interviewing media personalities",
+            "How media \"call out\" to people, shaping how they see themselves in society",
+            "The technique of cutting between scenes",
+            "The method of dubbing films"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 4,
+          "question": "A \"dominant reading\" occurs when:",
+          "options": [
+            "The audience rejects the intended message",
+            "The audience questions some aspects of the message",
+            "The audience fully accepts the intended message of the media",
+            "The audience creates their own alternative message"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 5,
+          "question": "What does \"queer coding\" refer to?",
+          "options": [
+            "Secret messages in films",
+            "Stereotypical portrayal of LGBTQ+ characters as comic or overly emotional",
+            "Programming languages for streaming platforms",
+            "Censorship of LGBTQ+ content"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 6,
+          "question": "Media imperialism refers to:",
+          "options": [
+            "The role of Western media in influencing global culture",
+            "The use of media by military forces",
+            "The historical documentation of empires",
+            "The censorship of international content"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        },
+        {
+          "id": 7,
+          "question": "What is \"counter-hegemony\" in Cultural Studies?",
+          "options": [
+            "Supporting mainstream narratives",
+            "Challenging dominant stories and giving voice to marginalized groups",
+            "Creating duplicate content",
+            "Blocking media access"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 8,
+          "question": "Peace journalism differs from conflict journalism by:",
+          "options": [
+            "Avoiding all mention of violence",
+            "Telling the full story, including causes and peace efforts",
+            "Only covering sports events",
+            "Focusing exclusively on celebrity news"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 9,
+          "question": "Cultural violence in media refers to:",
+          "options": [
+            "Physical fights shown on screen",
+            "The portrayal that spreads unfair ideas through stereotypes and symbolism",
+            "Action movie choreography",
+            "Documentary footage of riots"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 10,
+          "question": "An \"oppositional reading\" means:",
+          "options": [
+            "Reading subtitles instead of dubbing",
+            "The audience completely rejects the intended message",
+            "The audience partially agrees with the message",
+            "The audience doesn't watch the media at all"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 11,
+          "question": "What does \"representation theory\" by Stuart Hall explain?",
+          "options": [
+            "How actors prepare for roles",
+            "How media create meaning by choosing which images and stories to tell",
+            "The legal representation of media companies",
+            "The demographic statistics of audiences"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 12,
+          "question": "Conflict transformation advocates for:",
+          "options": [
+            "Increasing military action",
+            "Peaceful conflict resolution through dialogue and justice",
+            "Ignoring all conflicts",
+            "Media censorship"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 13,
+          "question": "A \"negotiated reading\" occurs when:",
+          "options": [
+            "Contracts are signed between producers and actors",
+            "The audience agrees with some parts but questions or resists some aspects",
+            "The audience refuses to watch the content",
+            "The audience watches content for free"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 14,
+          "question": "Philippine Peace Studies is best described as:",
+          "options": [
+            "A military training program",
+            "An interdisciplinary field examining root causes of conflict and promoting sustainable peace",
+            "A tourism promotion strategy",
+            "A film genre"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 15,
+          "question": "Political economy in media studies examines:",
+          "options": [
+            "The cost of movie tickets",
+            "Who owns and controls the media and how it affects culture",
+            "The salary of actors",
+            "The economic themes in films"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "sectionId": 2,
+      "sectionName": "Fill in the Blanks",
+      "questions": [
+        {
+          "id": 16,
+          "question": "The Filipino film _______ uses indigenous folklore to challenge dominant cultural stories.",
+          "options": [
+            "Heneral Luna",
+            "T'yanak",
+            "Metro Manila",
+            "Kita Kita"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 17,
+          "question": "Stuart Hall developed the _______ theory that explains how audiences interpret media differently.",
+          "options": [
+            "Interpellation",
+            "Representation",
+            "Encoding/Decoding",
+            "Imperialism"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 18,
+          "question": "_______ is the French Marxist philosopher who developed the concept of interpellation.",
+          "options": [
+            "Stuart Hall",
+            "Karl Marx",
+            "Louis Althusser",
+            "Michel Foucault"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 19,
+          "question": "Ang Probinsyano was produced by _______, which influenced its content and reach.",
+          "options": [
+            "GMA Network",
+            "TV5",
+            "ABS-CBN",
+            "Netflix Philippines"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 20,
+          "question": "The main character in Ang Probinsyano is Ricardo \"______\" Dalisay.",
+          "options": [
+            "Cardo",
+            "Carlos",
+            "Cesar",
+            "Cisco"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        },
+        {
+          "id": 21,
+          "question": "_______ teleseryes combine Hollywood styles with Filipino culture, showing how local media mixes global influences.",
+          "options": [
+            "Korean",
+            "Japanese",
+            "Filipino",
+            "American"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 22,
+          "question": "Peace Studies draws insights from sociology, political science, education, and _______.",
+          "options": [
+            "mathematics",
+            "cultural studies",
+            "engineering",
+            "medicine"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 23,
+          "question": "_______ promotes consumerism and American culture worldwide through its media control.",
+          "options": [
+            "Sony",
+            "Warner Bros",
+            "Disney",
+            "Paramount"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 24,
+          "question": "Media can either promote _______ or worsen violence by shaping views on justice and conflict.",
+          "options": [
+            "peace",
+            "capitalism",
+            "entertainment",
+            "technology"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        },
+        {
+          "id": 25,
+          "question": "Frequent exposure to violent media can _______ young people, according to Peace Studies.",
+          "options": [
+            "educate",
+            "desensitize",
+            "motivate",
+            "inspire"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "sectionId": 3,
+      "sectionName": "Find the NOT",
+      "questions": [
+        {
+          "id": 26,
+          "question": "Which is NOT one of the ways audiences decode media messages according to Stuart Hall?",
+          "options": [
+            "Dominant reading",
+            "Negotiated reading",
+            "Oppositional reading",
+            "Commercial reading"
+          ],
+          "correctAnswer": 3,
+          "explanation": ""
+        },
+        {
+          "id": 27,
+          "question": "Which is NOT a focus of Cultural Studies Theory?",
+          "options": [
+            "Representation and stereotypes",
+            "Media as ideological tool",
+            "Technical camera specifications",
+            "Globalization and media imperialism"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 28,
+          "question": "Which is NOT an example of media imperialism?",
+          "options": [
+            "Western media influencing global culture",
+            "Local films promoting indigenous stories",
+            "Hollywood dominance worldwide",
+            "American TV shows exported globally"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 29,
+          "question": "Which is NOT a characteristic of peace journalism?",
+          "options": [
+            "Highlighting only violence and villains",
+            "Showing causes of conflict",
+            "Covering peace efforts",
+            "Providing full context of stories"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        },
+        {
+          "id": 30,
+          "question": "Which is NOT a way Ang Probinsyano relates to Cultural Studies Theory?",
+          "options": [
+            "It serves as an ideological tool",
+            "It challenges provincial stereotypes",
+            "It was produced by international studios",
+            "It shows different audience interpretations"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 31,
+          "question": "Which is NOT examined by Philippine Peace Studies?",
+          "options": [
+            "Root causes of conflict",
+            "Promotion of justice and harmony",
+            "Box office revenue statistics",
+            "Sustainable peace in society"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 32,
+          "question": "Which is NOT a component of representation theory?",
+          "options": [
+            "Media creates meaning through choices",
+            "Media can reinforce stereotypes",
+            "Media can challenge stereotypes",
+            "Media only shows objective reality"
+          ],
+          "correctAnswer": 3,
+          "explanation": ""
+        },
+        {
+          "id": 33,
+          "question": "Which is NOT an example of cultural violence in media?",
+          "options": [
+            "Portraying poor people as criminals",
+            "Showing soldiers as heroes",
+            "Documenting real peace dialogues",
+            "Spreading unfair stereotypes"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 34,
+          "question": "Which is NOT mentioned as influencing how audiences decode messages?",
+          "options": [
+            "Their background",
+            "Their social context",
+            "Their shoe size",
+            "Their political views"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 35,
+          "question": "Which is NOT a discipline that Philippine Peace Studies draws from?",
+          "options": [
+            "Sociology",
+            "Political science",
+            "Mechanical engineering",
+            "Education"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "sectionId": 4,
+      "sectionName": "Key People",
+      "questions": [
+        {
+          "id": 36,
+          "question": "Who developed the Encoding/Decoding theory?",
+          "options": [
+            "Louis Althusser",
+            "Stuart Hall",
+            "Karl Marx",
+            "Michel Foucault"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 37,
+          "question": "Who is the French Marxist philosopher known for the concept of interpellation?",
+          "options": [
+            "Stuart Hall",
+            "Jean Baudrillard",
+            "Louis Althusser",
+            "Pierre Bourdieu"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 38,
+          "question": "Stuart Hall is associated with which theory?",
+          "options": [
+            "Interpellation only",
+            "Representation Theory only",
+            "Both Encoding/Decoding and Representation Theory",
+            "Media Imperialism only"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 39,
+          "question": "Ricardo \"Cardo\" Dalisay is the main character in which Philippine series?",
+          "options": [
+            "Darna",
+            "Ang Probinsyano",
+            "Encantadia",
+            "Pangako Sa'yo"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 40,
+          "question": "Who is described as a provincial police officer fighting crime and corruption?",
+          "options": [
+            "Ricardo Dalisay",
+            "Ferdinand Marcos",
+            "Ramon Revilla",
+            "Bong Go"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "sectionId": 5,
+      "sectionName": "Example Situations",
+      "questions": [
+        {
+          "id": 41,
+          "question": "A film glorifies wealth while blaming individuals for poverty. This is an example of:",
+          "options": [
+            "Counter-hegemony",
+            "Media as an ideological tool reinforcing class inequality",
+            "Peace journalism",
+            "Oppositional reading"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 42,
+          "question": "A viewer watches a government patriotic film and completely rejects its message because they oppose the government. This is:",
+          "options": [
+            "A dominant reading",
+            "A negotiated reading",
+            "An oppositional reading",
+            "Interpellation"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 43,
+          "question": "Disney spreading consumerism and American culture globally is an example of:",
+          "options": [
+            "Peace Studies",
+            "Counter-hegemony",
+            "Media imperialism and political economy",
+            "Queer coding"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 44,
+          "question": "An independent Filipino film challenges mainstream narratives and gives voice to marginalized groups. This demonstrates:",
+          "options": [
+            "Media imperialism",
+            "Dominant reading",
+            "Subcultures and counter-hegemony",
+            "Conflict journalism"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        },
+        {
+          "id": 45,
+          "question": "A news program shows only the chaos of a protest without explaining the peaceful reasons behind it. This is an example of:",
+          "options": [
+            "Peace journalism",
+            "Conflict journalism",
+            "Counter-hegemony",
+            "Dominant reading"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 46,
+          "question": "A teleserye portrays poor characters as troublemakers while rich characters are shown as good. This illustrates:",
+          "options": [
+            "Peace Studies principles",
+            "Cultural violence and stereotyping",
+            "Counter-hegemony",
+            "Negotiated reading"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 47,
+          "question": "Cardo in Ang Probinsyano makes viewers feel they should stand up for what is right. This is an example of:",
+          "options": [
+            "Media imperialism",
+            "Interpellation",
+            "Queer coding",
+            "Conflict transformation"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 48,
+          "question": "Filipino teleseryes combining Hollywood styles with local Filipino culture demonstrate:",
+          "options": [
+            "Pure media imperialism",
+            "Local media mixing global influences with local stories",
+            "Complete rejection of Western media",
+            "Conflict journalism"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 49,
+          "question": "Online games featuring violent action being streamed as entertainment without guidance illustrates:",
+          "options": [
+            "Peace journalism",
+            "Youth exposure to violence in media that can desensitize",
+            "Counter-hegemony",
+            "Dominant reading"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        },
+        {
+          "id": 50,
+          "question": "Ang Probinsyano portraying Cardo as brave and capable challenges the stereotype that:",
+          "options": [
+            "Police officers are corrupt",
+            "People from provinces are weak or backward",
+            "Urban residents are superior",
+            "Action heroes must be foreign"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        }
+      ]
+    }
+  ]
+}
