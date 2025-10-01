@@ -1,0 +1,625 @@
+{
+  "examTitle": "Discrete Structures 2 Reviewer",
+  "examDescription": "Functions, Relations & Boolean Algebra — 50-Item Multiple Choice Reviewer",
+  "totalQuestions": 50,
+  "sections": [
+    {
+      "sectionId": 1,
+      "sectionName": "Terms & Definitions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a function in mathematics?",
+          "options": [
+            "A system where multiple outputs exist for every input",
+            "A system where there is only one output for every input",
+            "A set of random coordinates",
+            "A relation with no specific pattern"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A function is a system of coordinates wherein there should only be one output for every input."
+        },
+        {
+          "id": 2,
+          "question": "What is the domain of a function?",
+          "options": [
+            "The set of y-coordinates that satisfy the equation",
+            "The set of x-coordinates that can satisfy the equation",
+            "The graph of the function",
+            "The range multiplied by two"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The domain of a function is the set of x-coordinates that can satisfy the equation."
+        },
+        {
+          "id": 3,
+          "question": "What is the range of a function?",
+          "options": [
+            "The set of x-coordinates",
+            "The domain divided by two",
+            "The set of y-coordinates",
+            "The inverse of the function"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Range is the set of y-coordinates."
+        },
+        {
+          "id": 4,
+          "question": "What is an injective function?",
+          "options": [
+            "A function where multiple elements of A map to one element of B",
+            "A function where all elements of B are used",
+            "A function that has no inverse",
+            "Different elements of A map to different elements of B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "An injective (one-to-one) function means distinct elements of the domain map to distinct elements in the codomain — no two different inputs have the same output."
+        },
+        {
+          "id": 5,
+          "question": "What is a surjective function?",
+          "options": [
+            "A function where no element of B has a corresponding element in A",
+            "A function where all elements of B have a corresponding element of A",
+            "A function with only one element in the domain",
+            "A function that cannot have an inverse"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A surjective function (onto function) ensures that all elements of B have a corresponding element of A."
+        },
+        {
+          "id": 6,
+          "question": "What is a bijective function?",
+          "options": [
+            "A function that is only injective",
+            "A function that is only surjective",
+            "A function that is both injective and surjective",
+            "A function with no specific properties"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The combination of injective and surjective functions is called a bijective function."
+        },
+        {
+          "id": 7,
+          "question": "What is another term for an injective function?",
+          "options": [
+            "Onto function",
+            "One-to-one function",
+            "Many-to-one function",
+            "Constant function"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An injective function is also called a one-to-one function."
+        },
+        {
+          "id": 8,
+          "question": "What is another term for a surjective function?",
+          "options": [
+            "One-to-one function",
+            "Onto function",
+            "Identity function",
+            "Polynomial function"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A surjective function is also known as an onto function."
+        },
+        {
+          "id": 9,
+          "question": "What is an identity function?",
+          "options": [
+            "A function in the form y = ax² + bx + c",
+            "A function that resembles a straight line in the form y = x",
+            "A horizontal line function",
+            "A third-degree polynomial"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An identity function resembles a straight line in the form y = x."
+        },
+        {
+          "id": 10,
+          "question": "What is a constant function?",
+          "options": [
+            "A function in the form y = mx + b",
+            "A function that resembles a horizontal line in the form y = a",
+            "A function in the form y = x²",
+            "A function with infinite outputs"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A constant function resembles a horizontal line in the form y = a, where a is any constant number."
+        },
+        {
+          "id": 11,
+          "question": "What is a quadratic function?",
+          "options": [
+            "A first-degree function",
+            "A second-degree function whose graph resembles a parabola",
+            "A third-degree function",
+            "A horizontal line function"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A quadratic function is a second-degree function whose graph resembles a parabola in the form y = ax² + bx + c."
+        },
+        {
+          "id": 12,
+          "question": "What is a cubic function?",
+          "options": [
+            "A second-degree function",
+            "A third-degree function",
+            "A constant function",
+            "An identity function"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A cubic function is a third-degree function in the form y = ax³ + bx² + cx + d."
+        },
+        {
+          "id": 13,
+          "question": "What type of function can have an inverse?",
+          "options": [
+            "Only injective functions",
+            "Only surjective functions",
+            "Only bijective functions",
+            "All functions can have inverses"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Only a bijective function can have an inverse."
+        },
+        {
+          "id": 14,
+          "question": "What is a Boolean function based on?",
+          "options": [
+            "The premise {True, False} represented as {0, 1}",
+            "The premise of real numbers",
+            "Complex number operations",
+            "Polynomial equations"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Boolean functions operate on the premise {0, 1}, where 0 is false and 1 is true."
+        },
+        {
+          "id": 15,
+          "question": "In Boolean algebra, what does 0 represent?",
+          "options": [
+            "True",
+            "False",
+            "Undefined",
+            "Infinity"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Boolean functions, 0 is interpreted as 'false'."
+        },
+        {
+          "id": 16,
+          "question": "What is a many-to-one function?",
+          "options": [
+            "A function where one input maps to multiple outputs",
+            "A function where multiple inputs map to one output",
+            "A function where each input has exactly one output",
+            "A function with no valid mapping"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A many-to-one function has multiple elements of the domain mapping to the same element in the range."
+        },
+        {
+          "id": 17,
+          "question": "What is the standard form of a polynomial of degree n?",
+          "options": [
+            "y = a_n x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_0",
+            "y = mx + b",
+            "y = x²",
+            "y = x³"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The standard form of an n-th degree polynomial is y = a_n x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_0 (a_n ≠ 0)."
+        },
+        {
+          "id": 18,
+          "question": "What is Boolean complement equivalent to in logic?",
+          "options": [
+            "Conjunction",
+            "Disjunction",
+            "Negation",
+            "Implication"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Boolean complement (x̄) is equivalent to logical negation (¬x)."
+        }
+      ]
+    },
+    {
+      "sectionId": 2,
+      "sectionName": "Fill in the Blanks",
+      "questions": [
+        {
+          "id": 19,
+          "question": "For the function y = x², the domain is _____.",
+          "options": [
+            "[0, ∞)",
+            "(-∞, ∞)",
+            "[0, 1]",
+            "(-1, 1)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The domain of y = x² is all real numbers: (-∞, ∞)."
+        },
+        {
+          "id": 20,
+          "question": "For the function y = x², the range is _____.",
+          "options": [
+            "(-∞, ∞)",
+            "[0, ∞)",
+            "(-∞, 0]",
+            "[1, ∞)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The range of y = x² is [0, ∞) since the output cannot be negative."
+        },
+        {
+          "id": 21,
+          "question": "In a quadratic function y = ax² + bx + c, the value of a must be _____.",
+          "options": [
+            "Equal to zero",
+            "Non-zero",
+            "Always positive",
+            "Always negative"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In a quadratic function, a ≠ 0."
+        },
+        {
+          "id": 22,
+          "question": "An identity function generates ordered pairs that are _____, such as {(1,1), (2,2), (3,3)}.",
+          "options": [
+            "Different",
+            "Inverse",
+            "Alike",
+            "Random"
+          ],
+          "correctAnswer": 2,
+          "explanation": "An identity function generates a set of ordered pairs that are alike."
+        },
+        {
+          "id": 23,
+          "question": "In Boolean algebra, the Boolean product x · y is equivalent to logical _____.",
+          "options": [
+            "Negation",
+            "Disjunction",
+            "Conjunction",
+            "Implication"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Boolean product (x · y) is equivalent to logical conjunction (x ∧ y)."
+        },
+        {
+          "id": 24,
+          "question": "In Boolean algebra, the Boolean sum x + y is equivalent to logical _____.",
+          "options": [
+            "Conjunction",
+            "Negation",
+            "Disjunction",
+            "Equivalence"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Boolean sum (x + y) is equivalent to logical disjunction (x ∨ y)."
+        },
+        {
+          "id": 25,
+          "question": "To find the inverse of a function, you must _____ x and y.",
+          "options": [
+            "Add",
+            "Multiply",
+            "Interchange",
+            "Subtract"
+          ],
+          "correctAnswer": 2,
+          "explanation": "To find the inverse, interchange x and y."
+        },
+        {
+          "id": 26,
+          "question": "In the Boolean operation 1̄, the result is _____.",
+          "options": [
+            "1",
+            "0",
+            "Undefined",
+            "2"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Boolean complement of 1 is 0."
+        },
+        {
+          "id": 27,
+          "question": "For y = x² - 5x + 4, the range is _____.",
+          "options": [
+            "(-∞, ∞)",
+            "[0, ∞)",
+            "[-2.25, ∞)",
+            "(-∞, -2.25]"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The range of y = x² - 5x + 4 is [-2.25, ∞) as shown in the document."
+        },
+        {
+          "id": 28,
+          "question": "For y = -3x² - 12x + 9, the range is _____.",
+          "options": [
+            "(-∞, 21]",
+            "[21, ∞)",
+            "(-∞, ∞)",
+            "[0, 21]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The range of y = -3x² - 12x + 9 is (-∞, 21] as the parabola opens downward."
+        },
+        {
+          "id": 29,
+          "question": "A function becomes bijective if it is both _____ and _____.",
+          "options": [
+            "Linear and quadratic",
+            "One-to-one and onto",
+            "Constant and variable",
+            "Positive and negative"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A function becomes bijective if it is both one-to-one (injective) and onto (surjective)."
+        },
+        {
+          "id": 30,
+          "question": "All _____ functions are bijections.",
+          "options": [
+            "Quadratic",
+            "Constant",
+            "Linear",
+            "One-to-one and onto"
+        ],
+          "correctAnswer": 3,
+          "explanation": "A bijection is by definition a function that is both one-to-one (injective) and onto (surjective)."
+        },
+        {
+          "id": 31,
+          "question": "In a constant function, _____ changes are observed.",
+          "options": [
+            "Many",
+            "Some",
+            "No",
+            "Infinite"
+          ],
+          "correctAnswer": 2,
+          "explanation": "No changes are observed in a constant function."
+        },
+        {
+          "id": 32,
+          "question": "The Boolean product 1 · 1 equals _____.",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "Undefined"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Boolean algebra, 1 · 1 = 1."
+        },
+        {
+          "id": 33,
+          "question": "The Boolean sum 1 + 1 equals _____.",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "Undefined"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Boolean algebra, 1 + 1 = 1."
+        }
+      ]
+    },
+    {
+      "sectionId": 3,
+      "sectionName": "Example Situations",
+      "questions": [
+        {
+          "id": 34,
+          "question": "Given R = {(1,a), (2,b), (2,c), (3,c)}, is this a function?",
+          "options": [
+            "Yes, it is a function",
+            "No, because element 2 has two outputs",
+            "Yes, it is a bijection",
+            "No, because element 3 has one output"
+          ],
+          "correctAnswer": 1,
+          "explanation": "This is not a function because element 2 maps to both b and c (two outputs)."
+        },
+        {
+          "id": 35,
+          "question": "Given K = {(1,a), (2,b), (3,c), (4,b)} where C = {1,2,3,4} and D = {a,b,c}, what type of function is K?",
+          "options": [
+            "Injective only",
+            "Surjective",
+            "Bijective",
+            "Not a function"
+          ],
+          "correctAnswer": 1,
+          "explanation": "K is surjective because all elements of D are used, and elements 2 and 4 both map to b."
+        },
+        {
+          "id": 36,
+          "question": "If f(x) = 3x + 1 and f(3) = 10, what is f⁻¹(10)?",
+          "options": [
+            "10",
+            "31",
+            "3",
+            "1"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Using the inverse function f⁻¹(x) = (x-1)/3, we get f⁻¹(10) = (10-1)/3 = 3."
+        },
+        {
+          "id": 37,
+          "question": "What is the inverse of f(x) = 3x + 1?",
+          "options": [
+            "f⁻¹(x) = 3x - 1",
+            "f⁻¹(x) = (x - 1)/3",
+            "f⁻¹(x) = x/3 + 1",
+            "f⁻¹(x) = 3(x - 1)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "By interchanging x and y and solving for y, we get f⁻¹(x) = (x - 1)/3."
+        },
+        {
+          "id": 38,
+          "question": "Given R = {(6,7), (4,3), (10,9), (0,1)}, what is R⁻¹?",
+          "options": [
+            "{(6,7), (4,3), (10,9), (0,1)}",
+            "{(7,6), (3,4), (9,10), (1,0)}",
+            "{(-6,-7), (-4,-3), (-10,-9), (0,-1)}",
+            "{(1,0), (3,4), (7,6), (9,10)}"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The inverse is found by interchanging x and y coordinates."
+        },
+        {
+          "id": 39,
+          "question": "What is the result of the Boolean operation 0 · 1?",
+          "options": [
+            "0",
+            "1",
+            "Undefined",
+            "2"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Boolean algebra, 0 · 1 = 0."
+        },
+        {
+          "id": 40,
+          "question": "What is the result of the Boolean operation 0 + 1?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "Undefined"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Boolean algebra, 0 + 1 = 1."
+        },
+        {
+          "id": 41,
+          "question": "If A = {1,2,3} maps to B = {a,b} such that 1→a, 2→a, 3→b, is this injective?",
+          "options": [
+            "Yes, it is injective",
+            "No, because two elements map to the same output",
+            "Yes, it is bijective",
+            "No, because B is smaller than A"
+          ],
+          "correctAnswer": 1,
+          "explanation": "This is not injective because both 1 and 2 map to a (not one-to-one)."
+        },
+        {
+          "id": 42,
+          "question": "If A = {1,2} maps to B = {a,b} such that 1→a, 2→b, what type of function is this?",
+          "options": [
+            "Injective only",
+            "Surjective only",
+            "Bijective",
+            "Neither injective nor surjective"
+          ],
+          "correctAnswer": 2,
+          "explanation": "This is bijective because it is both one-to-one (injective) and onto (surjective)."
+        },
+        {
+          "id": 43,
+          "question": "For the function y = x, what ordered pairs does it generate?",
+          "options": [
+            "{(1,2), (2,3), (3,4)}",
+            "{(1,1), (2,2), (3,3)}",
+            "{(1,0), (2,0), (3,0)}",
+            "{(0,1), (0,2), (0,3)}"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An identity function y = x generates ordered pairs where x and y are equal."
+        },
+        {
+          "id": 44,
+          "question": "What is the Boolean complement of 0?",
+          "options": [
+            "0",
+            "1",
+            "-1",
+            "Undefined"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Boolean complement 0̄ = 1."
+        },
+        {
+          "id": 45,
+          "question": "What is the result of 1 · 0 in Boolean algebra?",
+          "options": [
+            "0",
+            "1",
+            "Undefined",
+            "0.5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Boolean algebra, 1 · 0 = 0."
+        },
+        {
+          "id": 46,
+          "question": "What is the result of 1 + 0 in Boolean algebra?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "Undefined"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In Boolean algebra, 1 + 0 = 1."
+        },
+        {
+          "id": 47,
+          "question": "If f(x) = 2x - 4, what is f(5)?",
+          "options": [
+            "6",
+            "10",
+            "14",
+            "4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "f(5) = 2(5) - 4 = 10 - 4 = 6."
+        },
+        {
+          "id": 48,
+          "question": "Given the mapping {(1,a), (2,b), (3,c)} where all elements are used, what type is this?",
+          "options": [
+            "Many-to-one",
+            "One-to-many",
+            "Bijective",
+            "Not a function"
+          ],
+          "correctAnswer": 2,
+          "explanation": "This is bijective because each element maps one-to-one and all elements of the codomain are used."
+        },
+        {
+          "id": 49,
+          "question": "A function maps A = {1,2,3} to B = {a,b,c,d} as {(1,a), (2,b), (3,c)}. Is this surjective?",
+          "options": [
+            "Yes, all elements of B are used",
+            "No, element d is not used",
+            "Yes, it is bijective",
+            "No, it is not a function"
+          ],
+          "correctAnswer": 1,
+          "explanation": "This is not surjective because element d in B has no corresponding element in A."
+        },
+        {
+          "id": 50,
+          "question": "What is 0 · 0 in Boolean algebra?",
+          "options": [
+            "0",
+            "1",
+            "Undefined",
+            "2"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In Boolean algebra, 0 · 0 = 0."
+        }
+      ]
+    }
+  ]
+}

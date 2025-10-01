@@ -1,0 +1,631 @@
+{
+  "examTitle": "Data Structures and Algorithm Reviewer",
+  "examDescription": "Binary Trees, BST, AVL Trees, and Heaps — 50-Item Multiple Choice Reviewer",
+  "totalQuestions": 50,
+  "sections": [
+    {
+      "sectionId": 1,
+      "sectionName": "Terms & Definitions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a Binary Tree?",
+          "options": [
+            "A tree where each node can have unlimited children",
+            "A hierarchical data structure where each parent node can have up to two children",
+            "A linear data structure similar to an array",
+            "A tree that only contains leaf nodes"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A binary tree allows data to be organized hierarchically with up to two child nodes per parent."
+        },
+        {
+          "id": 2,
+          "question": "What is Tree Traversal?",
+          "options": [
+            "The process of deleting nodes from a tree",
+            "The process of visiting every node in a tree exactly once in a particular order",
+            "The process of adding new nodes to a tree",
+            "The process of balancing an unbalanced tree"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tree traversal visits every node exactly once to access or process data."
+        },
+        {
+          "id": 3,
+          "question": "What is a Binary Search Tree (BST)?",
+          "options": [
+            "A tree used only for sorting data",
+            "An ordered binary tree where left subtree contains smaller keys and right subtree contains larger keys",
+            "A tree that allows duplicate nodes",
+            "A tree where all nodes have the same value"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A BST is an ordered binary tree with specific ordering properties for efficient searching."
+        },
+        {
+          "id": 4,
+          "question": "What is an AVL Tree?",
+          "options": [
+            "A tree that allows unbalanced structures",
+            "A self-balancing BST where each node maintains a balance factor of -1, 0, or +1",
+            "A tree that stores only integers",
+            "A tree without any height restrictions"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An AVL tree is a self-balancing BST named after Adelson-Velskii and Landis."
+        },
+        {
+          "id": 5,
+          "question": "What is the Balance Factor in an AVL Tree?",
+          "options": [
+            "The sum of left and right subtree heights",
+            "The difference between the height of the left subtree and the height of the right subtree",
+            "The number of nodes in the tree",
+            "The depth of the deepest leaf node"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Balance Factor = Height(Left Subtree) - Height(Right Subtree)."
+        },
+        {
+          "id": 6,
+          "question": "What is a Heap Data Structure?",
+          "options": [
+            "A linear data structure like an array",
+            "A binary tree where the largest or smallest value is always at the root",
+            "A tree that stores data in alphabetical order",
+            "A structure that only allows insertion operations"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A heap is a binary tree with the heap order property, keeping max or min at the root."
+        },
+        {
+          "id": 7,
+          "question": "What is a Max-Heap?",
+          "options": [
+            "A heap where the smallest value is at the root",
+            "A heap where the parent node is always greater than or equal to its children",
+            "A heap that only stores negative numbers",
+            "A heap with no ordering property"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In a max-heap, the parent is always greater than or equal to its children."
+        },
+        {
+          "id": 8,
+          "question": "What is a Min-Heap?",
+          "options": [
+            "A heap where the parent node is always less than or equal to its children",
+            "A heap where the largest value is at the root",
+            "A heap that stores only positive numbers",
+            "A heap with random ordering"
+          ],
+          "correctAnswer": 0,
+          "explanation": "In a min-heap, the parent is always less than or equal to its children."
+        },
+        {
+          "id": 9,
+          "question": "What is Heapify?",
+          "options": [
+            "The process of deleting all elements from a heap",
+            "The process of converting an arbitrary array into a valid heap",
+            "The process of sorting an array",
+            "The process of reversing a heap"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Heapify converts an unordered array into a valid heap structure."
+        },
+        {
+          "id": 10,
+          "question": "What is a Priority Queue?",
+          "options": [
+            "A queue that processes elements in FIFO order only",
+            "An abstract data type where elements are dequeued based on their priority level",
+            "A queue that stores only integers",
+            "A queue with no ordering"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Priority queues process elements based on priority, not just arrival order."
+        },
+        {
+          "id": 11,
+          "question": "What is Breadth-First Traversal (BFT)?",
+          "options": [
+            "Visiting nodes by exploring deeply along each branch first",
+            "Visiting nodes level by level from the root downwards",
+            "Visiting only leaf nodes",
+            "Visiting nodes in random order"
+          ],
+          "correctAnswer": 1,
+          "explanation": "BFT, also known as Level Order Traversal, visits nodes level by level."
+        },
+        {
+          "id": 12,
+          "question": "What is Inorder Traversal?",
+          "options": [
+            "Root, Left, Right",
+            "Left, Root, Right",
+            "Left, Right, Root",
+            "Right, Root, Left"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Inorder traversal visits left subtree, then root, then right subtree."
+        }
+      ]
+    },
+    {
+      "sectionId": 2,
+      "sectionName": "Fill in the Blanks",
+      "questions": [
+        {
+          "id": 13,
+          "question": "A node in a binary tree may have three fields: Data Element, Pointer to the Left Child, and Pointer to the _____ Child.",
+          "options": [
+            "Right",
+            "Middle",
+            "Upper",
+            "Lower"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Binary tree nodes have pointers to left and right children."
+        },
+        {
+          "id": 14,
+          "question": "The topmost node of a binary tree is called the _____ node.",
+          "options": [
+            "Leaf",
+            "Root",
+            "Parent",
+            "Child"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The root is the topmost node in a tree structure."
+        },
+        {
+          "id": 15,
+          "question": "The end nodes or _____ nodes have no children in a binary tree.",
+          "options": [
+            "Root",
+            "Parent",
+            "Leaf",
+            "Internal"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Leaf nodes are terminal nodes with no children."
+        },
+        {
+          "id": 16,
+          "question": "In a BST, a node's _____ subtree only contains nodes with keys greater than the node's key.",
+          "options": [
+            "Left",
+            "Right",
+            "Middle",
+            "Upper"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The right subtree contains keys greater than the parent node."
+        },
+        {
+          "id": 17,
+          "question": "In AVL trees, if the balance factor goes beyond -1 or +1, the tree self-balances using _____.",
+          "options": [
+            "Deletions",
+            "Insertions",
+            "Rotations",
+            "Swaps"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Rotations are used to restore balance in AVL trees."
+        },
+        {
+          "id": 18,
+          "question": "A balance factor of _____ means the left and right subtrees are of equal height.",
+          "options": [
+            "-1",
+            "0",
+            "+1",
+            "+2"
+          ],
+          "correctAnswer": 1,
+          "explanation": "A balance factor of 0 indicates equal heights."
+        },
+        {
+          "id": 19,
+          "question": "A heap is always a _____ binary tree where all levels are filled except possibly the last.",
+          "options": [
+            "Complete",
+            "Perfect",
+            "Incomplete",
+            "Partial"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Heaps maintain the complete binary tree shape property."
+        },
+        {
+          "id": 20,
+          "question": "_____ is used after inserting a new element to restore the heap property by moving the element up the tree.",
+          "options": [
+            "Down-Heapify",
+            "Up-Heapify",
+            "Side-Heapify",
+            "Cross-Heapify"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Up-Heapify (Bubble-Up) moves newly inserted elements upward."
+        },
+        {
+          "id": 21,
+          "question": "_____ Traversal visits the root node first, followed by the left subtree and then the right subtree.",
+          "options": [
+            "Inorder",
+            "Postorder",
+            "Preorder",
+            "Level-order"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Preorder traversal follows Root-Left-Right order."
+        },
+        {
+          "id": 22,
+          "question": "_____ Traversal visits the left subtree first, then the right subtree, and finally the root node.",
+          "options": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Breadth-first"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Postorder traversal follows Left-Right-Root order."
+        },
+        {
+          "id": 23,
+          "question": "In array representation of heaps (0-based indexing), if a node is at array[k], its left child is at array[_____].",
+          "options": [
+            "k+1",
+            "k*2",
+            "k/2",
+            "k*2+1"
+          ],
+          "correctAnswer": 3,
+          "explanation": "In 0-based array representation, the left child is at index 2*k + 1."
+        },
+        {
+          "id": 24,
+          "question": "The _____ operation removes and returns the root element from a heap.",
+          "options": [
+            "Insert",
+            "Peek",
+            "Extract Root",
+            "Replace"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Extract Root (Pop) removes and returns the root element."
+        }
+      ]
+    },
+    {
+      "sectionId": 3,
+      "sectionName": "Find the NOT",
+      "questions": [
+        {
+          "id": 25,
+          "question": "Which of the following is NOT a property of a Binary Search Tree?",
+          "options": [
+            "Left subtree contains nodes with keys less than the parent",
+            "Right subtree contains nodes with keys greater than the parent",
+            "Allows duplicate nodes",
+            "Both subtrees must also be binary search trees"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Standard textbook BSTs do not allow duplicate nodes. (Some implementations permit them with specific rules, but the conventional definition assumes no duplicates.)"
+        },
+        {
+          "id": 26,
+          "question": "Which of the following is NOT a type of Depth-First Traversal?",
+          "options": [
+            "Inorder Traversal",
+            "Preorder Traversal",
+            "Level Order Traversal",
+            "Postorder Traversal"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Level Order Traversal is a Breadth-First Traversal, not Depth-First."
+        },
+        {
+          "id": 27,
+          "question": "Which of the following is NOT a valid balance factor in an AVL Tree?",
+          "options": [
+            "-1",
+            "0",
+            "+1",
+            "+2"
+          ],
+          "correctAnswer": 3,
+          "explanation": "AVL trees only allow balance factors of -1, 0, or +1."
+        },
+        {
+          "id": 28,
+          "question": "Which of the following is NOT a heap operation?",
+          "options": [
+            "Insert",
+            "Extract Root",
+            "Binary Search",
+            "Peek"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Binary Search is not a heap operation; heaps use different operations."
+        },
+        {
+          "id": 29,
+          "question": "Which of the following is NOT a use case for Max-Heap?",
+          "options": [
+            "Heapsort",
+            "Priority Queues with highest priority first",
+            "Dijkstra's Algorithm",
+            "Top-K Tracking"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dijkstra's Algorithm uses a Min-Heap, not a Max-Heap."
+        },
+        {
+          "id": 30,
+          "question": "Which of the following is NOT true about a Complete Binary Tree?",
+          "options": [
+            "All levels are filled except possibly the last",
+            "The last level is filled from left to right",
+            "It can be represented using arrays",
+            "It must have all leaf nodes at the same level"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Complete binary trees don't require all leaves at the same level."
+        },
+        {
+          "id": 31,
+          "question": "Which of the following is NOT an application of trees?",
+          "options": [
+            "File systems",
+            "Database indexing",
+            "Linear searching in unsorted arrays",
+            "Compiler design"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Linear searching in unsorted arrays doesn't use tree structures."
+        },
+        {
+          "id": 32,
+          "question": "Which of the following is NOT true about Priority Queues?",
+          "options": [
+            "Elements are dequeued based on priority",
+            "They always follow FIFO order",
+            "They can be implemented using heaps",
+            "Higher priority elements are processed first"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Priority queues don't follow FIFO; they follow priority order."
+        },
+        {
+          "id": 33,
+          "question": "Which of the following is NOT a field in a binary tree node?",
+          "options": [
+            "Data Element",
+            "Pointer to Left Child",
+            "Pointer to Right Child",
+            "Pointer to Middle Child"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Binary tree nodes don't have a middle child pointer."
+        },
+        {
+          "id": 34,
+          "question": "Which is NOT a characteristic of Inorder Traversal in BST?",
+          "options": [
+            "Visits left subtree first",
+            "Visits root second",
+            "Visits right subtree last",
+            "Retrieves values in random order"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Inorder traversal in BST retrieves values in sorted order, not random."
+        },
+        {
+          "id": 35,
+          "question": "Which of the following is NOT true about Down-Heapify?",
+          "options": [
+            "Used after deleting the root element",
+            "Moves elements down the tree",
+            "Used after inserting a new element",
+            "Restores heap property by comparing with children"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Down-Heapify is used after deletion, not insertion."
+        },
+        {
+          "id": 36,
+          "question": "Which is NOT a type of tree mentioned in the document?",
+          "options": [
+            "AVL Tree",
+            "Binary Search Tree",
+            "Quad Tree",
+            "Merkle Tree"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quad Tree is not discussed in the provided document."
+        }
+      ]
+    },
+    {
+      "sectionId": 4,
+      "sectionName": "Example Situations",
+      "questions": [
+        {
+          "id": 37,
+          "question": "You need to maintain a sorted list of elements with frequent insertions and deletions. Which data structure is most appropriate?",
+          "options": [
+            "Array",
+            "Balanced Binary Search Tree (e.g., AVL Tree)",
+            "Stack",
+            "Queue"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Balanced BSTs (like AVL or Red-Black Trees) provide efficient insertions, deletions, and maintain sorted order."
+        },
+        {
+          "id": 38,
+          "question": "A hospital emergency room needs to process patients based on severity of their condition. Which data structure should be used?",
+          "options": [
+            "Stack",
+            "Regular Queue",
+            "Priority Queue",
+            "Array"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Priority queues process elements based on priority (severity)."
+        },
+        {
+          "id": 39,
+          "question": "You need to find the shortest path in a GPS routing system. Which algorithm and heap type would you use?",
+          "options": [
+            "Binary Search with Max-Heap",
+            "Dijkstra's Algorithm with Min-Heap",
+            "Linear Search with Array",
+            "Depth-First Search with Stack"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dijkstra's Algorithm uses a Min-Heap for shortest path finding."
+        },
+        {
+          "id": 40,
+          "question": "A file system needs to organize directories and subdirectories. Which tree structure best represents this?",
+          "options": [
+            "Max-Heap",
+            "Min-Heap",
+            "Hierarchical Tree",
+            "Linked List"
+          ],
+          "correctAnswer": 2,
+          "explanation": "File systems use hierarchical tree structures for directories."
+        },
+        {
+          "id": 41,
+          "question": "You are evaluating an arithmetic expression like (2 + 3) * (4 - 1). Which tree structure is best suited?",
+          "options": [
+            "Expression Tree (a type of binary tree where operators are internal nodes and operands are leaves)",
+            "Max-Heap",
+            "Min-Heap",
+            "AVL Tree"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Expression trees represent arithmetic expressions with operators as internal nodes."
+        },
+        {
+          "id": 42,
+          "question": "In a video game AI, decisions are made step by step (e.g., attack, defend, run). Which tree is used?",
+          "options": [
+            "AVL Tree",
+            "Binary Search Tree",
+            "Behavior Tree",
+            "Min-Heap"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Behavior trees are commonly used in AI decision-making."
+        },
+        {
+          "id": 43,
+          "question": "For implementing Undo/Redo in text editors, which data structures are appropriate?",
+          "options": [
+            "Queues",
+            "Stacks",
+            "Heaps",
+            "Arrays"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Stacks support LIFO operations ideal for Undo/Redo."
+        },
+        {
+          "id": 44,
+          "question": "For memory management in compilers, which tree structure is often used to represent expressions and memory allocation?",
+          "options": [
+            "Binary Search Tree",
+            "Heap Tree",
+            "Syntax Tree",
+            "Quad Tree"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Syntax trees represent the grammatical structure of programs."
+        },
+        {
+          "id": 45,
+          "question": "You need to schedule CPU processes where higher-priority tasks should execute first. Which data structure is most suitable?",
+          "options": [
+            "Queue",
+            "Stack",
+            "Priority Queue (Min-Heap or Max-Heap depending on convention)",
+            "Array"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Priority queues manage tasks based on priority levels."
+        },
+        {
+          "id": 46,
+          "question": "Which tree structure would be most suitable for implementing a decision-based game like 20 Questions?",
+          "options": [
+            "Heap Tree",
+            "Decision Tree",
+            "AVL Tree",
+            "Binary Search Tree"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Decision trees are used for question/answer decision-making processes."
+        },
+        {
+          "id": 47,
+          "question": "Which data structure would you use for autocomplete suggestions (predictive text)?",
+          "options": [
+            "Array",
+            "Stack",
+            "Trie (Prefix Tree)",
+            "Heap"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tries efficiently store and retrieve strings for autocomplete."
+        },
+        {
+          "id": 48,
+          "question": "In which situation is a Max-Heap priority queue most useful?",
+          "options": [
+            "When you want to repeatedly access the smallest element",
+            "When you want to repeatedly access the largest element",
+            "When elements need to be accessed in insertion order",
+            "When searching for exact matches"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Max-heaps are useful when the largest element needs priority access."
+        },
+        {
+          "id": 49,
+          "question": "Which traversal would be most appropriate for copying a binary tree?",
+          "options": [
+            "Inorder",
+            "Preorder",
+            "Postorder",
+            "Level-order"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Preorder traversal is often used to copy a tree as it visits the root before subtrees."
+        },
+        {
+          "id": 50,
+          "question": "Which traversal is most suitable for deleting a binary tree?",
+          "options": [
+            "Inorder",
+            "Preorder",
+            "Postorder",
+            "Level-order"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Postorder traversal is used for deleting trees because it deletes children before the parent."
+        }
+      ]
+    }
+  ]
+}

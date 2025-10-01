@@ -1,8 +1,18 @@
 import React, { useEffect, useMemo, useState } from "react";
-import examData from "./exam_json_data.json";
 import "./index.css";
 
+import discrete from "./quiz_data/discrete.json";
+import ppc from "./quiz_data/ppc.json";
+import dsa from "./quiz_data/dsa.json";
+
+const QUIZ_FILES = {
+  "discrete": discrete,
+  "ppc": ppc,
+  "dsa": dsa,
+};
+
 function QuizPage({
+  examData,
   questions,
   answers,
   setAnswers,
@@ -96,7 +106,6 @@ function QuizPage({
                 <button
                   className="btn primary"
                   onClick={() => {
-                    // If last question, submit; otherwise next
                     if (page === questions.length - 1) {
                       onSubmit();
                     } else {
@@ -140,13 +149,13 @@ function QuizPage({
   );
 }
 
-function ResultsPage({ questions, answers, onRestart }) {
+function ResultsPage({ examData, questions, answers, onRestart }) {
   const score = questions.reduce((acc, q) => acc + (answers[q.id] === q.correctAnswer ? 1 : 0), 0);
 
   return (
     <div className="container">
       <header className="header">
-        <h1>Results</h1>
+        <h1>Results - {examData.examTitle}</h1>
         <p className="muted">Your score and per-item corrections</p>
       </header>
 
@@ -201,16 +210,86 @@ function ResultsPage({ questions, answers, onRestart }) {
   );
 }
 
+const STORAGE_KEYS = {
+  ANSWERS: 'quiz_answers',
+  PAGE: 'quiz_current_page',
+  SUBMITTED: 'quiz_submitted',
+  THEME: 'quiz_theme',
+  CURRENT_QUIZ: 'quiz_current_quiz'
+};
+
+const loadFromStorage = (key, defaultValue) => {
+  try {
+    const item = window.localStorage.getItem(key);
+    return item ? JSON.parse(item) : defaultValue;
+  } catch (error) {
+    console.error(`Error loading ${key} from localStorage:`, error);
+    return defaultValue;
+  }
+};
+
+const saveToStorage = (key, value) => {
+  try {
+    window.localStorage.setItem(key, JSON.stringify(value));
+  } catch (error) {
+    console.error(`Error saving ${key} to localStorage:`, error);
+  }
+};
+
+const clearStorage = () => {
+  try {
+    Object.values(STORAGE_KEYS).forEach(key => {
+      if (key !== STORAGE_KEYS.THEME && key !== STORAGE_KEYS.CURRENT_QUIZ) {
+        window.localStorage.removeItem(key);
+      }
+    });
+  } catch (error) {
+    console.error('Error clearing localStorage:', error);
+  }
+};
+
 export default function App() {
-  const questions = useMemo(
-    () => examData.sections.flatMap(s => s.questions),
-    []
+  const [currentQuiz, setCurrentQuiz] = useState(() => 
+    loadFromStorage(STORAGE_KEYS.CURRENT_QUIZ, "discrete")
+  );
+  const [theme, setTheme] = useState(() => 
+    loadFromStorage(STORAGE_KEYS.THEME, "theme-light-blue")
+  );
+  const [answers, setAnswers] = useState(() => 
+    loadFromStorage(STORAGE_KEYS.ANSWERS, {})
+  );
+  const [page, setPage] = useState(() => 
+    loadFromStorage(STORAGE_KEYS.PAGE, 0)
+  );
+  const [submitted, setSubmitted] = useState(() => 
+    loadFromStorage(STORAGE_KEYS.SUBMITTED, false)
   );
 
-  const [theme, setTheme] = useState("theme-light-blue");
-  const [answers, setAnswers] = useState({});
-  const [page, setPage] = useState(0);
-  const [submitted, setSubmitted] = useState(false);
+  const examData = QUIZ_FILES[currentQuiz];
+  const questions = useMemo(
+    () => examData.sections.flatMap(s => s.questions),
+    [currentQuiz, examData]
+  );
+
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.CURRENT_QUIZ, currentQuiz);
+  }, [currentQuiz]);
+
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.THEME, theme);
+  }, [theme]);
+
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.ANSWERS, answers);
+  }, [answers]);
+
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.PAGE, page);
+  }, [page]);
+
+  useEffect(() => {
+    saveToStorage(STORAGE_KEYS.SUBMITTED, submitted);
+  }, [submitted]);
 
   useEffect(() => {
     document.body.classList.remove(
@@ -220,6 +299,14 @@ export default function App() {
     document.body.classList.add(theme);
   }, [theme]);
 
+  const handleLoadQuiz = (quizKey) => {
+    alert("Quiz data is loaded.");
+    clearStorage();
+    setCurrentQuiz(quizKey);
+    setAnswers({});
+    setPage(0);
+    setSubmitted(false);
+  };
 
   const handleSubmit = () => {
     setSubmitted(true);
@@ -227,6 +314,7 @@ export default function App() {
   };
 
   const handleRestart = () => {
+    clearStorage();
     setAnswers({});
     setPage(0);
     setSubmitted(false);
@@ -237,25 +325,52 @@ export default function App() {
       <div className="container">
         <header className="appheader">
           <h1>Quiz Application</h1>
-          <select
-            value={theme}
-            onChange={e => setTheme(e.target.value)}
-            className="btn"
-          >
-            <option value="theme-light-blue">Light Blue</option>
-            <option value="theme-light-green">Light Green</option>
-            <option value="theme-light-purple">Light Purple</option>
-            <option value="theme-dark-cyan">Dark Cyan</option>
-            <option value="theme-dark-bw">Dark B&W</option>
-            <option value="theme-dark-orange">Dark Orange</option>
-          </select>
+          <div className="header-controls">
+            <select
+              value={currentQuiz}
+              onChange={(e) => setCurrentQuiz(e.target.value)}
+              className="btn"
+            >
+              {Object.keys(QUIZ_FILES).map(quizKey => (
+                <option key={quizKey} value={quizKey}>
+                  {QUIZ_FILES[quizKey].examTitle}
+                </option>
+              ))}
+            </select>
+            
+            <button 
+              className="btn primary"
+              onClick={() => handleLoadQuiz(currentQuiz)}
+            >
+              Load Quiz
+            </button>
+
+            <select
+              value={theme}
+              onChange={e => setTheme(e.target.value)}
+              className="btn"
+            >
+              <option value="theme-light-blue">Light Blue</option>
+              <option value="theme-light-green">Light Green</option>
+              <option value="theme-light-purple">Light Purple</option>
+              <option value="theme-dark-cyan">Dark Cyan</option>
+              <option value="theme-dark-bw">Dark B&W</option>
+              <option value="theme-dark-orange">Dark Orange</option>
+            </select>
+          </div>
         </header>
       </div>
 
       {submitted ? (
-        <ResultsPage questions={questions} answers={answers} onRestart={handleRestart} />
+        <ResultsPage 
+          examData={examData}
+          questions={questions} 
+          answers={answers} 
+          onRestart={handleRestart} 
+        />
       ) : (
         <QuizPage
+          examData={examData}
           questions={questions}
           answers={answers}
           setAnswers={setAnswers}
@@ -267,4 +382,3 @@ export default function App() {
     </>
   );
 }
-
