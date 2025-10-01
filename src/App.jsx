@@ -4,11 +4,15 @@ import "./index.css";
 import discrete from "./quiz_data/discrete.json";
 import ppc from "./quiz_data/ppc.json";
 import dsa from "./quiz_data/dsa.json";
+import poc from "./quiz_data/poc.json";
+import selecta from "./quiz_data/selecta.json";
 
 const QUIZ_FILES = {
+  "selecta": selecta,
   "discrete": discrete,
   "ppc": ppc,
   "dsa": dsa,
+  "poc": poc,
 };
 
 function QuizPage({
@@ -250,7 +254,7 @@ const clearStorage = () => {
 
 export default function App() {
   const [currentQuiz, setCurrentQuiz] = useState(() => 
-    loadFromStorage(STORAGE_KEYS.CURRENT_QUIZ, "discrete")
+    loadFromStorage(STORAGE_KEYS.CURRENT_QUIZ, "selecta")
   );
   const [theme, setTheme] = useState(() => 
     loadFromStorage(STORAGE_KEYS.THEME, "theme-light-blue")

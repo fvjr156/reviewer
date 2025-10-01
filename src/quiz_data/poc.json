@@ -1,0 +1,631 @@
+{
+  "examTitle": "Principles of Communication Reviewer",
+  "examDescription": "Amplitude & Frequency Modulation Concepts — 50-Item Multiple Choice Reviewer",
+  "totalQuestions": 50,
+  "sections": [
+    {
+      "sectionId": 1,
+      "sectionName": "Terms & Definitions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is modulation?",
+          "options": [
+            "The process of converting raw message data into digital signals or waves over a modulator to optimize transmission",
+            "The process of amplifying audio signals only",
+            "A method to reduce signal strength",
+            "A technique to compress video files"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Modulation converts raw message data into signals optimized for transmission, increasing signal strength for maximum reach."
+        },
+        {
+          "id": 2,
+          "question": "What is a carrier signal?",
+          "options": [
+            "The message that must be transmitted",
+            "The output signal after modulation",
+            "The steady waveform in terms of amplitude and frequency",
+            "The device used for transmission"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The carrier signal is the steady waveform in terms of amplitude (height) and frequency."
+        },
+        {
+          "id": 3,
+          "question": "What is Amplitude Modulation (AM)?",
+          "options": [
+            "A modulation process focused on changing the signal's frequency",
+            "A modulation process focused on modulating or changing the signal's amplitude",
+            "A modulation process focused on changing the signal's phase",
+            "A process that compresses digital data"
+          ],
+          "correctAnswer": 1,
+          "explanation": "AM is a modulation process focused on modulating or changing the signal's amplitude."
+        },
+        {
+          "id": 4,
+          "question": "What are sidebands?",
+          "options": [
+            "Physical sides of a transmission tower",
+            "New signals generated at different frequencies above and below the carrier frequency during modulation",
+            "Types of antennas used in radio transmission",
+            "Backup frequencies for emergency communication"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Sidebands are new signals generated at different frequencies during modulation, found in the frequency spectrum above and below the carrier frequency."
+        },
+        {
+          "id": 5,
+          "question": "What is the modulation index (m)?",
+          "options": [
+            "The ratio of carrier frequency to modulating frequency",
+            "The relationship between the amplitudes of the modulating signal and carrier signal (Vm/Vc)",
+            "The total bandwidth of the signal",
+            "The power of the transmitted signal"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The modulation index is the ratio of modulating signal amplitude to carrier signal amplitude (m = Vm/Vc), also called the degree of modulation."
+        },
+        {
+          "id": 6,
+          "question": "What is Frequency Modulation (FM)?",
+          "options": [
+            "A modulation process that changes the carrier amplitude",
+            "A modulation process that puts the message in a carrier wave by changing the instantaneous frequency",
+            "A modulation process that changes only the phase",
+            "A digital compression technique"
+          ],
+          "correctAnswer": 1,
+          "explanation": "FM is a modulation process that puts the message in a carrier wave by changing the instantaneous frequency of the wave."
+        },
+        {
+          "id": 7,
+          "question": "What is frequency deviation (fd)?",
+          "options": [
+            "The error in frequency measurement",
+            "The amount of change in the carrier frequency caused by the modulating signal",
+            "The difference between two carrier frequencies",
+            "The rate of frequency change over time"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Frequency deviation is the amount of change in the carrier frequency caused by the modulating signal."
+        },
+        {
+          "id": 8,
+          "question": "What is Frequency-Shift Keying (FSK)?",
+          "options": [
+            "A type of AM where binary data modulates the carrier frequency to two values",
+            "A method of changing phase angles",
+            "A technique for amplifying weak signals",
+            "A way to reduce bandwidth usage"
+          ],
+          "correctAnswer": 0,
+          "explanation": "FSK is a type of FM where binary digital data (1s and 0s) modulates the carrier to have two frequency values."
+        },
+        {
+          "id": 9,
+          "question": "What is Phase Modulation (PM)?",
+          "options": [
+            "A modulation where carrier amplitude varies with message signal",
+            "A modulation where carrier frequency varies with message signal",
+            "A modulation where the phase of the carrier signal varies based on the amplitude variation of the message signal",
+            "A modulation that only works with digital signals"
+          ],
+          "correctAnswer": 2,
+          "explanation": "PM is a modulation process wherein the phase of the carrier signal varies based on the amplitude variation of the message signal."
+        },
+        {
+          "id": 10,
+          "question": "What is Phase-Shift Keying (PSK)?",
+          "options": [
+            "A modulation where binary signals change the carrier frequency",
+            "A modulation where binary signals change the phase of the carrier, not its frequency",
+            "A modulation where binary signals change the carrier amplitude",
+            "A hybrid of AM and FM modulation"
+          ],
+          "correctAnswer": 1,
+          "explanation": "PSK is a modulation where binary signals change the phase of the carrier signal rather than its frequency."
+        },
+        {
+          "id": 11,
+          "question": "What is the envelope in AM?",
+          "options": [
+            "The outer casing of a transmitter",
+            "An imaginary line connecting the positive and negative peaks of the carrier waveform",
+            "The bandwidth of the signal",
+            "The modulating frequency range"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The envelope is an imaginary line that connects the positive and negative peaks of the carrier waveform in AM."
+        },
+        {
+          "id": 12,
+          "question": "What are time domain signals?",
+          "options": [
+            "Signals displayed only on spectrum analyzers",
+            "Voltage or current variations that occur over time and are displayed on an oscilloscope screen",
+            "Signals that exist only in digital form",
+            "Frequency measurements over time"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Time domain signals are voltage or current variations that occur over time and are displayed on an oscilloscope screen."
+        }
+      ]
+    },
+    {
+      "sectionId": 2,
+      "sectionName": "Fill in the Blanks",
+      "questions": [
+        {
+          "id": 13,
+          "question": "The upper sideband frequency is calculated as fUSB = _____.",
+          "options": [
+            "fc - fm",
+            "fc + fm",
+            "fc × fm",
+            "fc / fm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The upper sideband frequency formula is fUSB = fc + fm (carrier frequency plus modulating frequency)."
+        },
+        {
+          "id": 14,
+          "question": "The lower sideband frequency is calculated as fLSB = _____.",
+          "options": [
+            "fc + fm",
+            "fc × fm",
+            "fc - fm",
+            "fc / fm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The lower sideband frequency formula is fLSB = fc - fm (carrier frequency minus modulating frequency)."
+        },
+        {
+          "id": 15,
+          "question": "The total bandwidth in AM is BW = _____ or BW = 2fm.",
+          "options": [
+            "fUSB + fLSB",
+            "fUSB - fLSB",
+            "fUSB × fLSB",
+            "fc - fm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Total bandwidth is BW = fUSB - fLSB, which simplifies to BW = 2fm."
+        },
+        {
+          "id": 16,
+          "question": "In AM, the amplitude of the modulating signal must always be _____ the amplitude of the carrier.",
+          "options": [
+            "Greater than",
+            "Equal to",
+            "Less than",
+            "Double"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vm must be less than Vc (Vm < Vc), otherwise distortion will occur."
+        },
+        {
+          "id": 17,
+          "question": "The modulation index using oscilloscope measurements is m = (Vmax - Vmin) / _____.",
+          "options": [
+            "2Vmax",
+            "Vmax + Vmin",
+            "2Vmin",
+            "Vmax - 2Vmin"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The formula for modulation index from oscilloscope is m = (Vmax - Vmin) / (Vmax + Vmin)."
+        },
+        {
+          "id": 18,
+          "question": "In FM, the carrier frequency _____ as the modulating signal amplitude increases.",
+          "options": [
+            "Decreases",
+            "Remains constant",
+            "Increases",
+            "Inverts"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The carrier frequency increases proportionately as the modulating signal's amplitude increases."
+        },
+        {
+          "id": 19,
+          "question": "Maximum frequency deviation is defined as _____.",
+          "options": [
+            "Minus",
+            "Divided by",
+            "The maximum departure of the carrier from its center frequency",
+            "Multiplied by"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Maximum frequency deviation (Δf) is the maximum amount the carrier frequency departs from its center frequency due to modulation."
+        },
+        {
+          "id": 20,
+          "question": "The modulation index for FM is mf = fd / _____.",
+          "options": [
+            "fc",
+            "fm",
+            "BW",
+            "Vc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The FM modulation index is mf = fd / fm (frequency deviation divided by modulating frequency)."
+        },
+        {
+          "id": 21,
+          "question": "In AM, the carrier frequency stays _____ during the modulation process.",
+          "options": [
+            "Variable",
+            "Increasing",
+            "Constant",
+            "Decreasing"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The carrier frequency stays constant during AM; only the amplitude changes."
+        },
+        {
+          "id": 22,
+          "question": "The audio frequency spectrum ranges from _____ Hz to 20 kHz.",
+          "options": [
+            "1",
+            "10",
+            "20",
+            "100"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The audio spectrum ranges from 20 Hz to 20 kHz."
+        },
+        {
+          "id": 23,
+          "question": "In FM, the carrier amplitude remains _____.",
+          "options": [
+            "Variable",
+            "Constant",
+            "Increasing",
+            "Decreasing"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In FM, the carrier amplitude remains constant while the frequency varies."
+        },
+        {
+          "id": 24,
+          "question": "In PSK, a typical phase shift is _____ degrees.",
+          "options": [
+            "90",
+            "180",
+            "270",
+            "360"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In binary PSK, a typical phase shift is 180° when the signal changes from 0 to 1 or vice versa."
+        }
+      ]
+    },
+    {
+      "sectionId": 3,
+      "sectionName": "Find the NOT",
+      "questions": [
+        {
+          "id": 25,
+          "question": "Which is NOT a characteristic of Amplitude Modulation?",
+          "options": [
+            "The carrier frequency stays constant during modulation",
+            "The carrier frequency changes based on the modulating signal",
+            "Changes in peaks of the carrier depend on the modulating signal",
+            "An envelope connects the positive and negative peaks"
+          ],
+          "correctAnswer": 1,
+          "explanation": "In AM, the carrier frequency stays constant; it is the amplitude that changes, not the frequency."
+        },
+        {
+          "id": 26,
+          "question": "Which is NOT true about sidebands?",
+          "options": [
+            "They are generated during modulation",
+            "They appear above and below the carrier frequency",
+            "They are always equal in amplitude to the carrier",
+            "They are the sum and difference of carrier and modulating frequencies"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sidebands vary in amplitude and are not always equal to the carrier amplitude; their amplitudes depend on the modulation index."
+        },
+        {
+          "id": 27,
+          "question": "Which is NOT a component of the modulation process?",
+          "options": [
+            "Carrier signal",
+            "Modulating signal",
+            "Demodulating signal",
+            "Modulated signal"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The three components are carrier signal, modulating signal, and modulated signal. Demodulation is a different process."
+        },
+        {
+          "id": 28,
+          "question": "Which is NOT a characteristic of Frequency Modulation?",
+          "options": [
+            "Carrier amplitude remains constant",
+            "Carrier frequency changes with modulating signal",
+            "Carrier amplitude changes with modulating signal",
+            "Frequency deviation occurs"
+          ],
+          "correctAnswer": 2,
+          "explanation": "In FM, the carrier amplitude remains constant; only the frequency changes."
+        },
+        {
+          "id": 29,
+          "question": "Which is NOT true about the modulation index in AM?",
+          "options": [
+            "It is also called the degree of modulation",
+            "It is the ratio Vm/Vc",
+            "It must always be greater than 1",
+            "It can be expressed as a percentage"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The modulation index must be less than or equal to 1 (Vm < Vc) to avoid distortion."
+        },
+        {
+          "id": 30,
+          "question": "Which is NOT a reason for using modulation?",
+          "options": [
+            "To improve signals unsuitable for transmission",
+            "To increase signal strength",
+            "To reduce the cost of receivers",
+            "To optimize transmission"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Modulation is used to improve signals, increase strength, and optimize transmission, not specifically to reduce receiver costs."
+        },
+        {
+          "id": 31,
+          "question": "Which is NOT true about FSK?",
+          "options": [
+            "It uses binary signals as modulating signals",
+            "The carrier has two frequency values",
+            "It is a type of FM",
+            "It changes the amplitude of the carrier"
+          ],
+          "correctAnswer": 3,
+          "explanation": "FSK changes the frequency of the carrier, not the amplitude."
+        },
+        {
+          "id": 32,
+          "question": "Which is NOT a characteristic of Phase Modulation?",
+          "options": [
+            "Phase shifts can be lagging or leading",
+            "The phase varies with the modulating signal amplitude",
+            "The frequency remains constant",
+            "The amplitude changes with the modulating signal"
+          ],
+          "correctAnswer": 3,
+          "explanation": "In PM, the phase changes but the amplitude remains constant."
+        },
+        {
+          "id": 33,
+          "question": "Which is NOT true about frequency deviation?",
+          "options": [
+            "It is caused by the modulating signal",
+            "Maximum deviation occurs at maximum modulating signal amplitude",
+            "It is expressed as ± a frequency value",
+            "It only applies to AM signals"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Frequency deviation applies to FM signals, not AM signals."
+        },
+        {
+          "id": 34,
+          "question": "Which is NOT a formula for calculating bandwidth?",
+          "options": [
+            "BW = fUSB - fLSB",
+            "BW = 2fm",
+            "BW = fc + fm",
+            "BW can be calculated from sidebands"
+          ],
+          "correctAnswer": 2,
+          "explanation": "BW = fc + fm is not a correct bandwidth formula; correct formulas are BW = fUSB - fLSB or BW = 2fm."
+        },
+        {
+          "id": 35,
+          "question": "Which is NOT displayed in a frequency domain representation?",
+          "options": [
+            "Carrier frequency",
+            "Sideband frequencies",
+            "Time variations",
+            "Signal magnitude"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Frequency domain shows frequency vs. magnitude, not time variations (which are shown in time domain)."
+        },
+        {
+          "id": 36,
+          "question": "Which is NOT used to calculate sideband frequencies in FM?",
+          "options": [
+            "fUSB = fc + fm",
+            "fLSB = fc - fm",
+            "fUSB = fc + nfm (where n = 1, 2, 3...)",
+            "fUSB = fc × fm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Sidebands are calculated using addition and subtraction, not multiplication of carrier and modulating frequencies."
+        }
+      ]
+    },
+    {
+      "sectionId": 4,
+      "sectionName": "Example Situations",
+      "questions": [
+        {
+          "id": 37,
+          "question": "A carrier voltage is 8V and the modulating signal is 6.5V. What is the modulation index?",
+          "options": [
+            "0.8125",
+            "1.23",
+            "0.65",
+            "0.52"
+          ],
+          "correctAnswer": 0,
+          "explanation": "m = Vm/Vc = 6.5V/8V = 0.8125"
+        },
+        {
+          "id": 38,
+          "question": "If the modulation index is 0.8125, what is the percentage of modulation?",
+          "options": [
+            "8.125%",
+            "81.25%",
+            "812.5%",
+            "0.8125%"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Percentage = m × 100 = 0.8125 × 100 = 81.25%"
+        },
+        {
+          "id": 39,
+          "question": "An AM signal has Vmax = 4.9V and Vmin = 1.4V. What is the modulation index?",
+          "options": [
+            "0.7143",
+            "0.5556",
+            "0.2857",
+            "3.5"
+          ],
+          "correctAnswer": 1,
+          "explanation": "m = (Vmax - Vmin)/(Vmax + Vmin) = (4.9 - 1.4)/(4.9 + 1.4) = 3.5/6.3 = 0.5556"
+        },
+        {
+          "id": 40,
+          "question": "If Vmax = 4.9V and Vmin = 1.4V, what is the percentage of modulation?",
+          "options": [
+            "35.6%",
+            "55.6%",
+            "71.4%",
+            "63.0%"
+          ],
+          "correctAnswer": 1,
+          "explanation": "m = 0.5556, percentage = 0.5556 × 100 = 55.6%"
+        },
+        {
+          "id": 41,
+          "question": "A carrier frequency is 150 MHz with a maximum frequency shift of 40 kHz. What is the maximum frequency deviation?",
+          "options": [
+            "150 MHz",
+            "150.04 MHz",
+            "40 kHz",
+            "149.96 MHz"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Maximum frequency deviation is the maximum shift away from the carrier frequency, which here is 40 kHz."
+        },
+        {
+          "id": 42,
+          "question": "If carrier is 150 MHz and maximum shift is 40 kHz, what is the minimum frequency?",
+          "options": [
+            "150.04 MHz",
+            "149.96 MHz",
+            "110 MHz",
+            "190 MHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The lowest frequency is fc - fd = 150 MHz - 40 kHz = 149.96 MHz."
+        },
+        {
+          "id": 43,
+          "question": "With carrier 150 MHz and deviation ±40 kHz, what is the total frequency swing?",
+          "options": [
+            "300 MHz",
+            "80 kHz",
+            "40 kHz",
+            "150 MHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The total swing between maximum and minimum is 2 × fd = 80 kHz."
+        },
+        {
+          "id": 44,
+          "question": "If the modulating frequency is 3.5 kHz and frequency deviation is ±14 kHz, what is the modulation index?",
+          "options": [
+            "0.25",
+            "2",
+            "4",
+            "17.5"
+          ],
+          "correctAnswer": 2,
+          "explanation": "mf = fd/fm = 14 kHz / 3.5 kHz = 4"
+        },
+        {
+          "id": 45,
+          "question": "For a carrier of 1 MHz and modulating frequency of 1 kHz, what is the first upper sideband?",
+          "options": [
+            "999 kHz",
+            "1.001 MHz",
+            "1.002 MHz",
+            "2 MHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "fUSB1 = fc + fm = 1,000,000 Hz + 1,000 Hz = 1,001,000 Hz = 1.001 MHz"
+        },
+        {
+          "id": 46,
+          "question": "For a carrier of 1 MHz and modulating frequency of 1 kHz, what is the first lower sideband?",
+          "options": [
+            "1.001 MHz",
+            "0.999 MHz",
+            "0.998 MHz",
+            "0.5 MHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "fLSB1 = fc - fm = 1,000,000 Hz - 1,000 Hz = 999,000 Hz = 0.999 MHz."
+        },
+        {
+          "id": 47,
+          "question": "With carrier 1 MHz and modulating frequency 1 kHz, what is the second upper sideband?",
+          "options": [
+            "1.001 MHz",
+            "1.002 MHz",
+            "1.003 MHz",
+            "2.002 MHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "fUSB2 = fc + 2fm = 1,000,000 Hz + 2,000 Hz = 1.002 MHz."
+        },
+        {
+          "id": 48,
+          "question": "With carrier 1 MHz and modulating frequency 1 kHz, what is the total bandwidth?",
+          "options": [
+            "1 kHz",
+            "2 kHz",
+            "1 MHz",
+            "2 MHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "BW = 2fm = 2 × 1 kHz = 2 kHz"
+        },
+        {
+          "id": 49,
+          "question": "If a carrier is 500 kHz and modulating signal is 5 kHz, what is the upper sideband frequency?",
+          "options": [
+            "495 kHz",
+            "505 kHz",
+            "510 kHz",
+            "2500 kHz"
+          ],
+          "correctAnswer": 1,
+          "explanation": "fUSB = fc + fm = 500 kHz + 5 kHz = 505 kHz"
+        },
+        {
+          "id": 50,
+          "question": "If Vm = 10V and Vc = 8V, what can be concluded about this AM signal?",
+          "options": [
+            "It is properly modulated",
+            "It will experience distortion because Vm > Vc",
+            "The modulation index is acceptable",
+            "It has 80% modulation"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Since Vm (10V) > Vc (8V), distortion will occur. For proper AM, Vm must be less than Vc."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "examTitle": "Welcome to the Quiz Application",
+  "examDescription": "Please select your reviewer from the dropdown menu above then click 'Load Quiz.'",
+  "totalQuestions": 1,
+  "sections": [
+    {
+      "sectionId": 1,
+      "sectionName": "Terms & Definitions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Lorem ipsum dolor sit amet",
+          "options": [
+            "Choice A"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Retake Quiz' to restart, or pick your reviewer then click 'Load Quiz'."
+        }
+      ]
+    }
+  ]
+}
