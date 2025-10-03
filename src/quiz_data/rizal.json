@@ -1,0 +1,613 @@
+{
+  "examTitle": "Rizal's Life and Works",
+  "examDescription": "50-Item Multiple Choice Reviewer",
+  "totalQuestions": 50,
+  "sections": [
+    {
+      "sectionId": 1,
+      "sectionName": "Comprehensive Review",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What was the primary purpose of the Propaganda Movement?",
+          "options": [
+            "To launch armed rebellion against Spain",
+            "To advocate for political and social reforms through peaceful means",
+            "To establish an independent Philippine government",
+            "To convert Filipinos to Protestantism"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Propaganda Movement sought peaceful reforms and used publications to expose colonial abuses."
+        },
+        {
+          "id": 2,
+          "question": "When was La Solidaridad established?",
+          "options": [
+            "February 15, 1889",
+            "June 26, 1892",
+            "July 3, 1892",
+            "December 30, 1896"
+          ],
+          "correctAnswer": 0,
+          "explanation": "La Solidaridad was established on February 15, 1889, in Barcelona, Spain."
+        },
+        {
+          "id": 3,
+          "question": "La Solidaridad was the official publication of the ________ Movement.",
+          "options": [
+            "Revolutionary",
+            "Propaganda",
+            "Katipunan",
+            "Independence"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Solidaridad served as the primary platform for the Propaganda Movement."
+        },
+        {
+          "id": 4,
+          "question": "Which of the following was NOT a goal of La Solidaridad?",
+          "options": [
+            "Representation in the Spanish Cortes",
+            "Secularization of parishes",
+            "Immediate independence from Spain",
+            "Equal rights between Filipinos and Spaniards"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La Solidaridad advocated for reforms within Spanish rule, not immediate independence."
+        },
+        {
+          "id": 5,
+          "question": "Who was the first editor of La Solidaridad?",
+          "options": [
+            "Jose Rizal",
+            "Marcelo H. del Pilar",
+            "Graciano Lopez Jaena",
+            "Mariano Ponce"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Graciano Lopez Jaena was the first editor, known for his satirical articles."
+        },
+        {
+          "id": 6,
+          "question": "What pen name did Mariano Ponce NOT use?",
+          "options": [
+            "Naning",
+            "Taga-Ilog",
+            "Kalipulako",
+            "Tikbalang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Taga-Ilog was Antonio Luna's pen name, not Mariano Ponce's."
+        },
+        {
+          "id": 7,
+          "question": "Who wrote under the pen name 'Taga-Ilog'?",
+          "options": [
+            "Mariano Ponce",
+            "Antonio Luna",
+            "Jose Maria Panganiban",
+            "Pedro Paterno"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Antonio Luna used the pen name 'Taga-Ilog' and focused on military reforms."
+        },
+        {
+          "id": 8,
+          "question": "What was the main conflict between Rizal and Del Pilar regarding La Solidaridad?",
+          "options": [
+            "Financial management",
+            "Language of publication",
+            "Leadership and movement direction - confrontational vs. peaceful approach",
+            "Location of the publication"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Del Pilar favored a confrontational approach while Rizal emphasized peaceful advocacy and education."
+        },
+        {
+          "id": 9,
+          "question": "Which essay by Rizal predicted the future of the Philippines under continued Spanish rule?",
+          "options": [
+            "The Indolence of the Filipino",
+            "The Philippines a Century Hence",
+            "Mi Último Adiós",
+            "Noli Me Tangere"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'The Philippines a Century Hence' analyzed societal stagnation and emphasized reform to prevent revolution."
+        },
+        {
+          "id": 10,
+          "question": "Which of the following was NOT a limitation of La Solidaridad?",
+          "options": [
+            "Financial challenges",
+            "Elite-centric focus",
+            "Limited political impact",
+            "Excessive violence in content"
+          ],
+          "correctAnswer": 3,
+          "explanation": "La Solidaridad promoted peaceful reform, not violence. Its limitations were financial, elitist, and politically ineffective."
+        },
+        {
+          "id": 11,
+          "question": "When did Rizal return to the Philippines from Europe?",
+          "options": [
+            "February 15, 1889",
+            "June 26, 1892",
+            "July 3, 1892",
+            "July 6, 1892"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal arrived in Manila on June 26, 1892, closely monitored by Spanish authorities."
+        },
+        {
+          "id": 12,
+          "question": "La Liga Filipina was established on ________, 1892, in Tondo, Manila.",
+          "options": [
+            "June 26",
+            "July 3",
+            "July 6",
+            "December 30"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Liga Filipina was founded on July 3, 1892, at Doroteo Ongjungco's house."
+        },
+        {
+          "id": 13,
+          "question": "What does 'La Liga Filipina' mean?",
+          "options": [
+            "The Filipino Army",
+            "The Filipino League",
+            "The Filipino Revolution",
+            "The Filipino Republic"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Liga Filipina translates to 'The Filipino League,' a socio-civic organization."
+        },
+        {
+          "id": 14,
+          "question": "Which of the following was NOT a goal of La Liga Filipina?",
+          "options": [
+            "Unity and mutual protection",
+            "Fostering education and development",
+            "Peaceful advocacy for reforms",
+            "Armed revolution against Spain"
+          ],
+          "correctAnswer": 3,
+          "explanation": "La Liga Filipina aimed for peaceful advocacy, not armed revolution."
+        },
+        {
+          "id": 15,
+          "question": "Who hosted the inaugural meeting of La Liga Filipina?",
+          "options": [
+            "Andres Bonifacio",
+            "Apolinario Mabini",
+            "Doroteo Ongjungco",
+            "Ambrosio Salvador"
+          ],
+          "correctAnswer": 2,
+          "explanation": "The meeting was held at Doroteo Ongjungco's house in Tondo."
+        },
+        {
+          "id": 16,
+          "question": "Who was the first president of La Liga Filipina?",
+          "options": [
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Ambrosio Salvador",
+            "Deodato Arellano"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Ambrosio Salvador served as La Liga Filipina's first president."
+        },
+        {
+          "id": 17,
+          "question": "When was Rizal arrested after establishing La Liga Filipina?",
+          "options": [
+            "June 26, 1892",
+            "July 3, 1892",
+            "July 6, 1892",
+            "December 30, 1896"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Rizal was arrested on July 6, 1892, barely a week after La Liga's inaugural meeting."
+        },
+        {
+          "id": 18,
+          "question": "Which revolutionary organization was founded by former La Liga Filipina members?",
+          "options": [
+            "Propaganda Movement",
+            "Katipunan",
+            "Cuerpo de Compromisarios",
+            "Ilustrados"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The Katipunan was founded by Bonifacio and other former Liga members, pursuing armed struggle."
+        },
+        {
+          "id": 19,
+          "question": "Rizal was exiled to ________ in Mindanao from 1892 to 1896.",
+          "options": [
+            "Manila",
+            "Dapitan",
+            "Cavite",
+            "Cebu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal spent four years in exile in Dapitan, where he made significant community contributions."
+        },
+        {
+          "id": 20,
+          "question": "Which of the following did Rizal NOT do during his exile in Dapitan?",
+          "options": [
+            "Established a school for boys",
+            "Provided free medical services",
+            "Led armed resistance against Spanish forces",
+            "Conducted scientific research"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Rizal focused on education, medicine, agriculture, and science—not armed resistance."
+        },
+        {
+          "id": 21,
+          "question": "Who was Josephine Bracken?",
+          "options": [
+            "Rizal's sister",
+            "A Spanish official",
+            "Rizal's common-law wife during exile",
+            "A revolutionary leader"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Josephine Bracken was an Irish woman who became Rizal's common-law wife during his Dapitan exile."
+        },
+        {
+          "id": 22,
+          "question": "What was Josephine Bracken's father seeking when they traveled to Dapitan?",
+          "options": [
+            "Political asylum",
+            "Treatment for blindness",
+            "Land to purchase",
+            "Employment"
+          ],
+          "correctAnswer": 1,
+          "explanation": "George Taufer, Bracken's adoptive father, sought treatment for his blindness from Rizal."
+        },
+        {
+          "id": 23,
+          "question": "In what field did Rizal specialize medically?",
+          "options": [
+            "Surgery",
+            "Ophthalmology",
+            "Pediatrics",
+            "Internal medicine"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal was an ophthalmologist who successfully performed eye surgeries in Dapitan."
+        },
+        {
+          "id": 24,
+          "question": "Who sent Dr. Pio Valenzuela to visit Rizal in exile?",
+          "options": [
+            "Spanish authorities",
+            "Andres Bonifacio and the Katipunan",
+            "Emilio Aguinaldo",
+            "Governor-General Ramon Blanco"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bonifacio and the Katipunan sent Valenzuela to inform Rizal of their rescue plan."
+        },
+        {
+          "id": 25,
+          "question": "Why did Rizal decline the Katipunan's offer to rescue him?",
+          "options": [
+            "He feared for his safety",
+            "He didn't trust Bonifacio",
+            "He believed in peaceful reform over armed conflict",
+            "He wanted to serve in Cuba"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Rizal firmly believed in achieving reform through peaceful means rather than armed struggle."
+        },
+        {
+          "id": 26,
+          "question": "Where was Rizal imprisoned before his trial?",
+          "options": [
+            "Bagumbayan",
+            "Fort Santiago",
+            "Dapitan",
+            "Intramuros"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal was imprisoned at Fort Santiago before facing trial."
+        },
+        {
+          "id": 27,
+          "question": "When was Rizal executed?",
+          "options": [
+            "July 6, 1892",
+            "December 29, 1896",
+            "December 30, 1896",
+            "January 1, 1897"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Rizal was executed by firing squad on December 30, 1896."
+        },
+        {
+          "id": 28,
+          "question": "Where was Rizal executed?",
+          "options": [
+            "Fort Santiago",
+            "Bagumbayan (now Luneta Park)",
+            "Dapitan",
+            "Intramuros"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal was executed at Bagumbayan, now known as Luneta Park."
+        },
+        {
+          "id": 29,
+          "question": "What does 'Mi Último Adiós' mean?",
+          "options": [
+            "My First Love",
+            "My Last Farewell",
+            "My Final Stand",
+            "My Dear Country"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mi Último Adiós translates to 'My Last Farewell,' Rizal's final poem."
+        },
+        {
+          "id": 30,
+          "question": "How did Rizal hide his final poem 'Mi Último Adiós'?",
+          "options": [
+            "In a book",
+            "Inside an alcohol lamp (cocinilla)",
+            "In his shoe",
+            "Under his pillow"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal hid the poem inside an alcohol lamp and gave it to his sister Trinidad."
+        },
+        {
+          "id": 31,
+          "question": "Which of the following themes is NOT present in 'Mi Último Adiós'?",
+          "options": [
+            "Patriotism",
+            "Hope and faith",
+            "Martyrdom",
+            "Revenge against Spain"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The poem expresses patriotism, hope, and martyrdom, but not revenge."
+        },
+        {
+          "id": 32,
+          "question": "What was one of the passwords of the Katipunan?",
+          "options": [
+            "Freedom",
+            "Rizal",
+            "Revolution",
+            "Independence"
+          ],
+          "correctAnswer": 1,
+          "explanation": "One of the Katipunan's passwords was 'Rizal,' showing his influence on the organization."
+        },
+        {
+          "id": 33,
+          "question": "Which Rizal novel depicted frustration leading to violence through the character Simoun?",
+          "options": [
+            "Noli Me Tangere",
+            "El Filibusterismo",
+            "The Indolence of the Filipino",
+            "Mi Último Adiós"
+          ],
+          "correctAnswer": 1,
+          "explanation": "El Filibusterismo featured Simoun, who sought violent vengeance, contrasting with Noli's peaceful reform."
+        },
+        {
+          "id": 34,
+          "question": "What term did Rizal use to describe a sense of Filipino national identity distinct from Spanish colonialism?",
+          "options": [
+            "Ilustrados",
+            "Filipinismo",
+            "Katipunan",
+            "Propaganda"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Filipinismo emphasized Filipino pride in their own culture rather than Spanish influence."
+        },
+        {
+          "id": 35,
+          "question": "Which of the following was NOT a revolutionary leader mentioned in the document?",
+          "options": [
+            "Andres Bonifacio",
+            "Emilio Aguinaldo",
+            "Apolinario Mabini",
+            "Graciano Lopez Jaena"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Graciano Lopez Jaena was a propagandist and editor, not a revolutionary leader like the others."
+        },
+        {
+          "id": 36,
+          "question": "Who was known as the 'Brains of the Revolution'?",
+          "options": [
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Apolinario Mabini",
+            "Emilio Aguinaldo"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Apolinario Mabini was known as the 'Brains of the Revolution' for his intellectual contributions."
+        },
+        {
+          "id": 37,
+          "question": "Who founded the Katipunan?",
+          "options": [
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Emilio Aguinaldo",
+            "Apolinario Mabini"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Andres Bonifacio founded the Katipunan, a revolutionary organization."
+        },
+        {
+          "id": 38,
+          "question": "Who became the first president of the Philippine Republic?",
+          "options": [
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Emilio Aguinaldo",
+            "Apolinario Mabini"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Emilio Aguinaldo became the first president of the Philippine Republic."
+        },
+        {
+          "id": 39,
+          "question": "La Solidaridad was published ________.",
+          "options": [
+            "daily",
+            "bi-weekly",
+            "weekly",
+            "monthly"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Solidaridad was published bi-weekly during the Spanish colonial period."
+        },
+        {
+          "id": 40,
+          "question": "In what language was La Solidaridad written?",
+          "options": [
+            "Tagalog",
+            "English",
+            "Spanish",
+            "Filipino"
+          ],
+          "correctAnswer": 2,
+          "explanation": "La Solidaridad was written in Spanish, limiting its reach to the educated elite."
+        },
+        {
+          "id": 41,
+          "question": "What was the conservative group formed by moderate La Liga Filipina members after Rizal's arrest?",
+          "options": [
+            "Katipunan",
+            "Propaganda Movement",
+            "Cuerpo de Compromisarios",
+            "Ilustrados"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Conservative members established the Cuerpo de Compromisarios, while radicals formed the Katipunan."
+        },
+        {
+          "id": 42,
+          "question": "Which novel by Rizal exposed the abuses of the Spanish clergy and was published in 1887?",
+          "options": [
+            "El Filibusterismo",
+            "Noli Me Tangere",
+            "The Indolence of the Filipino",
+            "The Philippines a Century Hence"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Noli Me Tangere (1887) exposed colonial abuses through the character Crisostomo Ibarra."
+        },
+        {
+          "id": 43,
+          "question": "Who was Rizal's legal counsel during his trial?",
+          "options": [
+            "Marcelo H. del Pilar",
+            "Lt. Luis Taviel de Andrade",
+            "Governor-General Ramon Blanco",
+            "Dr. Pio Valenzuela"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lt. Luis Taviel de Andrade was Rizal's legal counsel, with limited ability to contest charges."
+        },
+        {
+          "id": 44,
+          "question": "Which ilustrado wrote under the pen name 'Jomapa'?",
+          "options": [
+            "Mariano Ponce",
+            "Antonio Luna",
+            "Jose Maria Panganiban",
+            "Pedro Paterno"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Jose Maria Panganiban used the pen name 'Jomapa' and criticized Spanish abuses."
+        },
+        {
+          "id": 45,
+          "question": "What essay did Rizal write refuting claims that Filipinos were inherently lazy?",
+          "options": [
+            "The Philippines a Century Hence",
+            "The Indolence of the Filipino",
+            "Mi Último Adiós",
+            "Filipinismo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "'The Indolence of the Filipino' argued that colonial oppression discouraged Filipino productivity."
+        },
+        {
+          "id": 46,
+          "question": "Where was La Solidaridad established?",
+          "options": [
+            "Manila, Philippines",
+            "Barcelona, Spain",
+            "Madrid, Spain",
+            "Hong Kong"
+          ],
+          "correctAnswer": 1,
+          "explanation": "La Solidaridad was established in Barcelona, Spain, on February 15, 1889."
+        },
+        {
+          "id": 47,
+          "question": "What did Rizal purchase in Talisay during his exile?",
+          "options": [
+            "A hospital",
+            "A piece of land",
+            "A printing press",
+            "A school building"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal purchased land in Talisay with lottery winnings and built a house, school, and hospital there."
+        },
+        {
+          "id": 48,
+          "question": "Who was the second editor of La Solidaridad?",
+          "options": [
+            "Graciano Lopez Jaena",
+            "Marcelo H. del Pilar",
+            "Jose Rizal",
+            "Mariano Ponce"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Marcelo H. del Pilar was the second editor, known for persuasive writings and unifying reformists."
+        },
+        {
+          "id": 49,
+          "question": "What did Rizal do when he faced the firing squad?",
+          "options": [
+            "He begged for mercy",
+            "He refused to be blindfolded and turned to fall facing the sky",
+            "He tried to escape",
+            "He cursed the Spanish government"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Rizal refused the blindfold and turned his body to fall facing the sky, a symbolic act of defiance."
+        },
+        {
+          "id": 50,
+          "question": "According to the document, how old was Josephine Bracken when she died?",
+          "options": [
+            "25",
+            "30",
+            "35",
+            "40"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Josephine Bracken died of tuberculosis at the age of 25."
+        }
+      ]
+    }
+  ]
+}

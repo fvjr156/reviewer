@@ -6,6 +6,7 @@ import ppc from "./quiz_data/ppc.json";
 import dsa from "./quiz_data/dsa.json";
 import poc from "./quiz_data/poc.json";
 import selecta from "./quiz_data/selecta.json";
+import rizal from "./quiz_data/rizal.json";
 
 const QUIZ_FILES = {
   "selecta": selecta,
@@ -13,6 +14,7 @@ const QUIZ_FILES = {
   "ppc": ppc,
   "dsa": dsa,
   "poc": poc,
+  "rizal": rizal
 };
 
 function QuizPage({
